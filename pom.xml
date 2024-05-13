@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>iceberg</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>spark-and-duckdb</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <!--  binary version      -->
+        <scala.binary.version>2.13</scala.binary.version>
+        <spark.binary.version>3.3</spark.binary.version>
+
+        <!-- spark version       -->
+        <spark.version>3.3.2</spark.version>
+
+        <!-- hadoop version        -->
+        <hadoop.version>3.3.0</hadoop.version>
+
+        <!-- iceberg version       -->
+        <iceberg.veriosn>1.5.1</iceberg.veriosn>
+
+        <jackson.version>2.13.4.2</jackson.version>
+        <aws.sdk.version>2.20.80</aws.sdk.version>
+    </properties>
+
+</project>
